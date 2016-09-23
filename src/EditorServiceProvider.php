@@ -42,11 +42,11 @@ class EditorServiceProvider extends \Illuminate\Support\ServiceProvider
         $viewPath = __DIR__ . '/../resources/views';
         $this->loadViewsFrom($viewPath, 'wang-editor');
 
-        //路由
-        $routePath = __DIR__ . '/Http/routes.php';
-        if (! $this->app->routesAreCached()) {
-            require $routePath;
-        }
+//        //路由
+//        $routePath = __DIR__ . '/Http/routes.php';
+//        if (! $this->app->routesAreCached()) {
+//            require $routePath;
+//        }
 
     }
 

@@ -9,6 +9,10 @@ use Validator;
 class WangEditorController extends Controller
 {
 
+    public function example(Request $request)
+    {
+        return view('wang-editor::example');
+    }
     /**
      * 针对editor.md所写的图片上传控制器
      * 
